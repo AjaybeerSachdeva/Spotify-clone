@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify- Your favourite music is here</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h2>Best of Karan Aujla</h2>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me love you</span>
+                    <span class="songListPlay"><span class="timestamp">3:14 <i id="0" class="songItemPlay fa-solid fa-play"></i></span></span>
+                </div> 
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">Let me love you</span>
+                    <span class="songListPlay"><span class="timestamp">3:14 <i id="1" class="songItemPlay fa-solid fa-play"></i></span></span>
+                </div> 
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me love you</span>
+                    <span class="songListPlay"><span class="timestamp">3:14 <i id="2" class="songItemPlay fa-solid fa-play"></i></span></span>
+                </div> 
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me love you</span>
+                    <span class="songListPlay"><span class="timestamp">3:14 <i id="3" class="songItemPlay fa-solid fa-play"></i></span></span>
+                </div> 
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me love you</span>
+                    <span class="songListPlay"><span class="timestamp">3:14 <i id="4" class="songItemPlay fa-solid fa-play"></i></span></span>
+                </div> 
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me love you</span>
+                    <span class="songListPlay"><span class="timestamp">3:14 <i id="5" class="songItemPlay fa-solid fa-play"></i></span></span>
+                </div> 
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i id="previous" class=" fa-solid fa-2x fa-backward-fast"></i>
+            <i class="fa-solid fa-2x fa-play" id="masterPlay"></i>
+            <i id="forward" class=" fa-solid fa-2x fa-forward-fast"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="20px" alt="gif" id="gif"><span id="masterSongName">Mission Impossible</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/ec17907399.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
